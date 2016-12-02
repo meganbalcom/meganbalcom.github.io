@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About Me</title>
+    <title>Megan Balcom's Page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,8 +33,9 @@
 <body>
 
     <div class="brand">Megan's Work</div>
+    <div class="address-bar"></div>
 
-    <!-- Navigation -->
+    <!-- Navigation Bar-->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -51,21 +52,80 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <!--Home Tab-->
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <!--end of Home tab-->
+                    <!--About Me Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+                            About Me
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./about.html">My Background</a></li>
+                            <li><a href="./resume.html">Resume</a></li>
+                            <li><a href="./cover_letter.html">Cover Letter</a></li>
+                            <li><a href="./personality.html">Personality</a></li>
+
+                        </ul>
                     </li>
-                    <li>
-                        <a href="mywork.html">My Work</a>
+                    <!--end of about me tab-->
+                    <!--School Work Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="mywork.html">
+                            Academic Work
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./445.html">KDD/Data Mining</a></li>
+                            <li><a href="./310.html">Database Design (SQL)</a></li>
+                            <li><a href="./research_project.html">Data Mining Research Project</a></li>
+                            <li><a href="./strategic_assessment.html">IT Strategic Assessment</a></li>
+                            <li><a href="./410.html">Management of Information Systems</a></li>
+                            <li><a href="./420.html">MVC .NET System Implementation</a></li>
+                            <li><a href="./320.html">System Analysis and Design</a></li>
+                            <li><a href="./411.html">Web Architecture</a></li>
+                            <li><a href="./199-200.html">C# Programming</a></li>
+                        </ul>
                     </li>
+                    <!--end of school work-->
+                    <!--Work Experience-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Work Experience
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!--add job descriptions-->
+                            <li><a href="./bipa.html">BI Programmer/Analyst (January 2017)</a></li>
+                            <!--<li><a href="#">BI Programmer/Analyst Intern (Current)</a></li>-->
+                            <li><a href="./infrastructure_intern.html">IT Infrastructure Intern</a></li>
+                            <li><a href="./support_intern.html">IT Support Intern</a></li>
+                        </ul>
+                    </li>
+                    <!--end of Work Experience -->
+                    <!--Contact Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Contact
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.linkedin.com/in/mebalcom">LinkedIn</a></li>
+                            <li><a href="./contact.html">Email</a></li>
+                            <li><a href="https://github.com/meganbalcom">GitHub</a></li>
+                        </ul>
+                    </li>
+                    <!--end Contact-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+    <!--end nav bar-->
 
     <div class="container">
 
@@ -74,7 +134,7 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">
-                        About Me
+                        My Background
                     </h2>
                     <hr>
                 </div>
@@ -84,24 +144,28 @@
                 <div class="col-md-6">
                     <p>I started my journey in Computer Information Systems a little late in the game. Before switching to CIS my Junior year at the University of Louisville, I was a Political Science major.</p>
                     <p>It has been an awesome adventure, and I have learned so much about not only IT, but myself.</p>
-                    <p>When I first enrolled into the College of Business as a CIS major, I had never even worked with CSS or HTML. Now, a few years later, just a few of the things I have done include:
-                            <ul>
-                                <li>Learn how to use SAS Enterprise Miner</li>
-                                <li>Used GitHub to collaborate on various projects</li>
-                                <li>Worked on a MVC and .NET web solution that uses Bootstrap</li>
-                                <li>Learned how to write queries with SQL</li>
-                                <li>Applied Systems Analysis and Design concepts to gather system requirements for a client</li>
-                                <li>Taken two classes in C# software development </li>
-                            </ul>
+                    <p>
+                        When I first enrolled into the College of Business as a CIS major, I had never even worked with CSS or HTML. Now, a few years later, just a few of the things I have accomplished include:
+                        <ul>
+                            <li>Created an IT Strategic Assessment for a local non-profit</li>
+                            <li>Learn how to use SAS Enterprise Miner</li>
+                            <li>Completed 3 internships</li>
+                            <li>Used GitHub to collaborate on various projects</li>
+                            <li>Worked on a MVC and .NET web solution that uses Bootstrap</li>
+                            <li>Learned how to write queries with SQL</li>
+                            <li>Applied Systems Analysis and Design concepts to gather system requirements for a client</li>
+                            <li>Taken two classes in C# software development </li>
+                        </ul>
                     </p>
-                    <p>I love to learn, and am so glad I took the opportunity to jump into a field that I knew nothing about to challenge myself.</p>
+                    <p>I love to learn, and am so glad I took the opportunity to jump into a field that I knew nothing about to challenge myself!</p>
+                    <p>In the future, I hope to help other women and minorities pursue careers in IT - I feel strongly that a diverse workforce makes companies perform better.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
-        </div>
+    </div>
 
-        <!--<div class="row">
+    <!--<div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>

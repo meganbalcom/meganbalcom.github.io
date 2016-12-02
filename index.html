@@ -35,7 +35,7 @@
     <div class="brand">Megan's Work</div>
     <div class="address-bar"></div>
 
-    <!-- Navigation -->
+    <!-- Navigation Bar-->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -52,78 +52,88 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <!--Home Tab-->
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <!--end of Home tab-->
+                    <!--About Me Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+                            About Me
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./about.html">My Background</a></li>
+                            <li><a href="./resume.html">Resume</a></li>
+                            <li><a href="./cover_letter.html">Cover Letter</a></li>
+                            <li><a href="./personality.html">Personality</a></li>
+
+                        </ul>
                     </li>
-                    <li>
-                        <a href="mywork.html">My Work</a>
+                    <!--end of about me tab-->
+                    <!--School Work Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="mywork.html">
+                            Academic Work
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./445.html">KDD/Data Mining</a></li>
+                            <li><a href="./310.html">Database Design (SQL)</a></li>
+                            <li><a href="./research_project.html">Data Mining Research Project</a></li>
+                            <li><a href="./strategic_assessment.html">IT Strategic Assessment</a></li>
+                            <li><a href="./410.html">Management of Information Systems</a></li>
+                            <li><a href="./420.html">MVC .NET System Implementation</a></li>
+                            <li><a href="./320.html">System Analysis and Design</a></li>
+                            <li><a href="./411.html">Web Architecture</a></li>
+                            <li><a href="./199-200.html">C# Programming</a></li>
+                        </ul>
                     </li>
-                    <!--<li>
-                        <a href="contact.html">Contact</a>
-                    </li>-->
+                    <!--end of school work-->
+                    <!--Work Experience-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Work Experience
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <!--add job descriptions-->
+                            <li><a href="./bipa.html">BI Programmer/Analyst (January 2017)</a></li>
+                            <!--<li><a href="#">BI Programmer/Analyst Intern (Current)</a></li>-->
+                            <li><a href="./infrastructure_intern.html">IT Infrastructure Intern</a></li>
+                            <li><a href="./support_intern.html">IT Support Intern</a></li>
+                        </ul>
+                    </li>
+                    <!--end of Work Experience -->
+                    <!--Contact Tab-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Contact
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.linkedin.com/in/mebalcom">LinkedIn</a></li>
+                            <li><a href="./contact.html">Email</a></li>
+                            <li><a href="https://github.com/meganbalcom">GitHub</a></li>
+                        </ul>
+                    </li>
+                    <!--end Contact-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+    <!--end nav bar-->
 
-    <!--<div class="container">
+   
 
         <div class="row">
             <div class="box">
                 <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">-->
-                        <!--Indicators-->
-                        <!--<ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>-->  
-
-                        <!-- Wrapper for slides -->
-                        <!--<div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/A10_ERD.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/adelante.png" alt="">
-                            </div> 
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/trigger.png" alt="">
-                            </div>
-                        </div>--> 
-
-                        <!-- Controls -->
-                        <!--<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>--> 
-                    <!--<h2 class="brand-before">
-                        <small>Welcome</small>
-                    </h2>
-                   
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>Projects By
-                            <strong>Megan Balcom</strong>
-                        </small>
-                    </h2> 
-                </div>-->
-            
-        
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Some of my Projects/Skills</h2>
+                    <h2 class="intro-text text-center">Hello and Welcome!</h2>
                     <hr>
                     
                     <!-- <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt=""> -->
@@ -132,36 +142,20 @@
                     p {text-align: center;
                     }
                     </style>
-                    <p><a href="#"></a>WordStat and QDA Miner Research Project (In Progress)</p>
-                    <p><a href="#"></a>Knowledge Discovery in Databases (In Progress)</p>
-                    <p><a href="http://trout.cis420.net/"></a>Adelante Hispanic Achievers (In Progress)</p>
-                    <p><a href="AHA_I3.pdf"></a>Systems Analysis and Design</p>
-                    <p><a href="#"></a>Database Design Assignments (SQL)</p>
-                    <p><a href="#"></a>Software Development II (C#)</p>
-                    <p><a href="#"></a>Software Development I (C#)</p>
+                 
+                    <div class="col-lg-12 text-center">
+                        <p>My name is Megan Balcom and I am an aspiring Business Intelligence/Data Mining professional in Louisville, KY.</p>
+                        <p>Please take a look around my site and see some of my accomplishments as a Computer Information Systems major at the University of Louisville!</p>
+                    </div>
 
-                    <p><small>You can view more details about these projects by navigating to the "My Work" tab. </small></p>
-                    
-                    <!-- <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> -->
-                </div>
+                    <div class="col-lg-12">
+                            <img class="img-responsive img-border" src="img/louisville_city.jpg" alt="">
+                    </div>
+
+                    </div>
             </div>
         </div>
 
-        <!--<div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
-                    </h2>
-                    <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> -->
-               <!--</div>
-            </div>
-        </div>-->
-    
-    <!-- /.container -->
 
     <footer>
         <div class="container">
